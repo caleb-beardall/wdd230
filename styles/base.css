@@ -81,7 +81,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    grid: 1fr;
     max-width: 750px;
     padding: 1rem;
     margin: 0 auto;
@@ -122,7 +121,7 @@ h2 {
 
 /* FOOTER */
 footer {
-    background-color: var(--med-blue);
+    background-color: var(--dark-blue);
     color: white;
     text-align: center;
     padding: 1rem;
