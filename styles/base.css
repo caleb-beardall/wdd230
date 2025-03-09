@@ -1,0 +1,129 @@
+:root {
+    --dark-blue: #3367d6;
+    --med-blue: #4285f4;
+    --light-blue: #7baaf7;
+    --highlight-blue: #c6dafc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    min-width: 320px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--med-blue);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    margin: 1rem;
+}
+
+header span {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: var(--dark-blue);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+
+nav a:hover {
+    background-color: var(--light-blue);
+    color: white;
+    font-weight: 700;
+}
+
+.active {
+    background-color: var(--highlight-blue)
+}
+
+.active a {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+/* MAIN */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid: 1fr;
+    max-width: 750px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+h2 {
+    background-color: var(--med-blue);
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: .5rem .5rem 0 0;
+    padding: .5rem;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card li {
+    margin: 1rem;
+}
+
+.card p {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--med-blue);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
