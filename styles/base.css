@@ -185,7 +185,7 @@ h2 {
 /* FOOTER */
 footer {
     background-color: var(--dark-blue);
-    color: var(--body-text-color);
+    color: white;
     text-align: center;
     padding: 1rem;
 }
