@@ -1,5 +1,11 @@
 @media screen and (min-width: 500px) {
-    nav ul {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation.open,
+    .navigation {
         display: flex;
     }
 
