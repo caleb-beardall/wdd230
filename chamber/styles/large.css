@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+    header {
+        flex-wrap: unset;
+    }
+
+    #mainMenu,
+    #mainMenu.open {
+        display: flex;
+        flex-basis: unset;
+        margin-top: 0;
+    }
+
+    #mainMenu ul {
+        display: flex;
+    }
+
+    #mainMenu li {
+        border-top: unset;
+        padding: .5rem;
+    }
+
+    #mainMenu li:last-child {
+        padding: .5rem 0 .5rem .5rem;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+}

@@ -1,0 +1,126 @@
+/* https://developer.apple.com/design/human-interface-guidelines/color */
+
+:root {
+    --primary-color: #0a2463;
+    --secondary-color: #3e92cc;
+
+    --primary-grey: #F5F5F5;
+    --secondary-grey: #E0E0E0;
+    --tertiary-grey: #616161;
+    --quaternary-grey: #212121;
+
+    --background-color: #FAFAFA;
+
+    --title-font: "Cormorant SC", serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-grey);
+    padding: 1rem;
+}
+
+#logo {
+    display: flex;
+}
+
+#logoText {
+    display: flex;
+    flex-direction: column;
+}
+
+#ogdenCity {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+#chamberOfCommerce {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+/* Menu Button */
+#menuButton {
+    color: var(--quaternary-grey);
+    font-family: var(--body-font);
+    font-size: 1.25rem;
+    background: none;
+    border: none;
+    padding: .75rem;
+}
+
+#menuButton::before {
+    content: "☰"
+}
+
+#menuButton.open::before {
+    content: "X"
+}
+
+#menuButton:hover {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Main Menu */
+#mainMenu {
+    display: none;
+    flex-basis: 100%;
+    margin-top: 1rem;
+}
+
+#mainMenu.open {
+    display: block;
+}
+
+#mainMenu ul {
+    display: block;
+    list-style-type: none;
+    font-family: var(--body-font);
+}
+
+#mainMenu li {
+    border-top: 1px solid var(--secondary-grey);
+    padding: .5rem 0;
+}
+
+#mainMenu li:last-child {
+    padding: .5rem 0 0 0;
+}
+
+#mainMenu a {
+    text-decoration: none;
+    color: var(--tertiary-grey);
+}
+
+#mainMenu li.active a {
+    color: var(--quaternary-grey);
+    font-weight: 700;
+}
+
+#mainMenu li a:hover {
+    color: var(--primary-color);
+    font-weight: 700;
+}
