@@ -27,4 +27,20 @@
         display: none;
     }
 
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .events {
+        grid-column: 1 / 3;
+    }
+
+    .weather {
+        grid-column: 3 / 4;
+    }
+
+    .ads {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
