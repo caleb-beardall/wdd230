@@ -13,5 +13,5 @@ const myInfo = document.querySelector('.myInfo');
 let copyrightYear = new Date();
 let lastModified = new Date(document.lastModified);
 
-myInfo.textContent = `©${copyrightYear.getFullYear()} | Caleb Beardall | Last Modification: ${lastModified.toLocaleString('de-DE')}`;
+myInfo.textContent = `©${copyrightYear.getFullYear()} | Caleb Beardall | WDD 230 Project | Last Modification: ${lastModified.toLocaleString('de-DE')}`;
 
