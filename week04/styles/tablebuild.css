@@ -1,0 +1,71 @@
+/* #F5F7FA, #E6E9ED, #CCD1D9, #AAB2BD, #656D78, #434A54 */
+
+:root {
+    --color-1: #434A54;
+    --color-2: #656D78;
+    --color-3: #AAB2BD;
+    --color-4: #CCD1D9;
+    --color-5: #F5F7FA;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 1rem auto;
+    border: 1px solid var(--color-4);
+    box-shadow: 0 0 10px var(--color-3);
+    border-collapse: collapse;
+}
+
+caption {
+    margin: 1rem auto;
+    caption-side: bottom;
+    color: var(--color-1);
+    font-size: 1rem;
+}
+
+thead tr {
+    background-color: var(--color-1);
+    color: var(--color-5);
+}
+
+thead th {
+    font-size: 1.3rem;
+}
+
+thead tr:first-child th {
+    border: none;
+}
+
+.empty-cell {
+    background-color: var(--color-1);
+    border: none;
+}
+
+thead tr:last-child {
+    background-color: var(--color-2);
+    color: var(--color-5);
+}
+
+tbody {
+    text-align: center;
+    background-color: var(--color-5);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--color-4);
+}
+
+th {
+    padding: 1rem;
+    border: 1px solid var(--color-3);
+    font-size: 1.15rem;
+}
+
+td {
+    padding: 1rem;
+    border: 1px solid var(--color-3);
+    font-size: 1.15rem;
+}
