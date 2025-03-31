@@ -1,0 +1,114 @@
+:root {
+    --dark-blue: #3367d6;
+    --med-blue: #4285f4;
+    --light-blue: #7baaf7;
+    --highlight-blue: #c6dafc;
+
+    --title-text-color: white;
+    --body-text-color: black;
+    --background-color: white;
+    --section-color: #F5F5F5;
+    --border-shadow-color: rgba(0, 0, 0, 0.25);
+
+    --link-color: #1e6dae;
+    --visited-link-color: #6926cd;
+
+    --invalid-border: 3px solid #DA4453;
+    --valid-border: 3px solid #8CC152;
+    --neutral-border: 3px solid #AAB2BD;
+}
+
+main {
+    display: block;
+    max-width: 500px;
+
+}
+
+form {
+    color: var(--body-text-color);
+    background-color: var(--section-color);
+    border: 1px solid var(--border-shadow-color);
+    border-radius: .5rem;
+    box-shadow: 4px 4px 8px var(--border-shadow-color);
+}
+
+fieldset {
+    border: none;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+fieldset div:first-of-type {
+    margin-bottom: 1rem;
+}
+
+#fdbk {
+    color: #DA4453;
+    font-style: italic;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.required::before {
+    content: "*Required";
+    color: #DA4453;
+    font-size: .75rem;
+    font-style: italic;
+}
+
+input {
+    display: block;
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin-top: .25rem;
+}
+
+input:required {
+    border: var(--invalid-border);
+}
+
+input:required:focus {
+    border: var(--neutral-border);
+}
+
+input:required:valid {
+    border: var(--valid-border);
+}
+
+fieldset label:last-of-type {
+    margin-bottom: .5rem;
+}
+
+#rangevalue {
+    color: var(--med-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+input[name="r"] {
+    width: 200px;
+    padding: unset;
+    margin: unset;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: var(--dark-blue);
+    font-size: 1.25rem;
+    border: 1px solid var(--border-shadow-color);
+    border-radius: .5rem;
+    box-shadow: 4px 4px 8px var(--border-shadow-color);
+    padding: .5rem 1rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+input[type="submit"]:hover {
+    color: var(--dark-blue);
+    background-color: var(--highlight-blue);
+    font-weight: 700;
+}

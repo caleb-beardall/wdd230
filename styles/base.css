@@ -169,7 +169,9 @@ main {
     color: white;
     background-color: var(--dark-blue);
     font-size: 1.25rem;
+    border: 1px solid var(--border-shadow-color);
     border-radius: .5rem;
+    box-shadow: 4px 4px 8px var(--border-shadow-color);
     padding: .5rem 1rem;
 }
 
