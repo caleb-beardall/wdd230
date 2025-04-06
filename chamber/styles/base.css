@@ -367,6 +367,140 @@ td {
     padding: .75rem 1rem 1rem 1rem;
 }
 
+/* Join */
+.join {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.join h1 {
+    color: var(--primary-color);
+    grid-column: -1 / 1;
+    font-family: var(--title-font);
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: .5rem;
+    margin: 0 1rem;
+}
+
+.join fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-grey);
+    border: 1px solid var(--secondary-grey);
+    padding: 1rem;
+}
+
+.join label,
+.join div {
+    color: var(--quaternary-grey);
+    font-family: var(--body-font);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.join input[type="text"],
+.join input[type="email"],
+.join input[type="tel"] {
+    width: 100%;
+    color: var(--tertiary-grey);
+    font-family: var(--body-font);
+    font-size: 1.75rem;
+    padding: .25rem;
+    margin-top: .25rem;
+}
+
+fieldset .mlevel {
+    color: var(--tertiary-grey);
+    font-weight: 400;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+label[for="description"] {
+    margin-bottom: .25rem;
+}
+
+textarea {
+    color: var(--tertiary-grey);
+    font-family: var(--body-font);
+    font-size: 1.75rem;
+    padding: .25rem;
+}
+
+.join input:required {
+    border: 2px solid #DA4453;
+}
+
+.join input:required:valid {
+    border: 2px solid #37BC9B;
+}
+
+.required::before {
+    content: "- Required";
+    color: #DA4453;
+    font-size: .75rem;
+}
+
+.join input[type="submit"] {
+
+    color: var(--primary-grey);
+    background-color: var(--primary-color);
+    font-family: var(--body-font);
+    border: none;
+    border-radius: 1rem;
+    width: 200px;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+}
+
+.join input[type="submit"]:hover {
+    color: var(--primary-color);
+    background-color: var(--primary-grey);
+    font-weight: 700;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.benefits {
+    background-color: var(--primary-grey);
+    border: 1px solid var(--secondary-grey);
+}
+
+.benefits h3 {
+    color: var(--primary-grey);
+    background-color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+
+.benefits div {
+    margin: 1rem;
+}
+
+.membershipLevel {
+    color: var(--quaternary-grey);
+    font-family: var(--body-font);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--secondary-grey);
+    padding-bottom: .5rem;
+    margin-bottom: .75rem;
+}
+
+.benefits li {
+    color: var(--tertiary-grey);
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+}
+
 /* Footer */
 footer {
     display: flex;

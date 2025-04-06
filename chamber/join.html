@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Ogden City's Chamber of Commerce</title>
+    <meta name="author" content="Caleb Beardall">
+    <meta name="description" content="Learn more about the memberships Ogden City's Chamber of Commerce offers and reach out to us so we can assist you in find the membership level that's right for you.">
+
+    <meta property="og:url" content="https://caleb-beardall.github.io/wdd230/chamber/join.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Join Ogden City's Chamber of Commerce">
+    <meta property="og:description" content="Learn more about the memberships Ogden City's Chamber of Commerce offers and reach out to us so we can assist you in find the membership level that's right for you.">
+    <meta property="og:image"
+        content="https://th.bing.com/th/id/OIP.mx6BN8LVjb3FR402AgDOYAHaE8?w=263&h=180&c=7&r=0&o=5&pid=1.7">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/ogden-chamber-logo.svg" alt="Ogden City Chamber of Commerce Logo" width="50" height="50">
+            <div id="logoText">
+                <span id="ogdenCity">Ogden City</span>
+                <span id="chamberOfCommerce">Chamber of Commerce</span>
+            </div>
+        </div>
+        <button type="button" id="menuButton"></button>
+        <nav id="mainMenu">
+            <ul>
+                <li><a href="https://caleb-beardall.github.io/wdd230/chamber/index.html">HOME</a></li>
+                <li><a href="https://caleb-beardall.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+                <li><a href="">DIRECTORY </a></li>
+                <li class="active"><a href="https://caleb-beardall.github.io/wdd230/chamber/join.html">JOIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="join">
+        <h1>Contact Us to Learn More</h1>
+        <form method="get" action="thankyou.html" class="contact-us">
+            <input type="hidden" name="timestamp" id="timestamp">
+            <fieldset>
+                <label>First Name <span class="required"></span><input type="text" required name="fname"
+                        id="fname"></label>
+                <label>Last Name <span class="required"></span><input type="text" required name="lname"
+                        id="lname"></label>
+                <label>Title/Position <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"
+                        title="Only alpha characters, hyphens, and spaces are permitted. Response must contain seven (7) charactes."></label>
+                <label>Email Address <span class="required"></span><input type="email" required name="email" id="email"
+                        placeholder="name@gmail.com"></label>
+                <label>Phone Number <span class="required"></span><input type="tel" required name="phone"
+                        id="phone"></label>
+                <label>Business Name <span class="required"></span><input type="text" required name="bname"
+                        id="bname"></label>
+                <div>Desired Membership Level</div>
+                <label class="mlevel"><input type="radio" name="mlevel" value="nonprofit">NP Membership</label>
+                <label class="mlevel"><input type="radio" name="mlevel" value="bronze">Bronze Membership</label>
+                <label class="mlevel"><input type="radio" name="mlevel" value="silver">Silver Membership</label>
+                <label class="mlevel"><input type="radio" name="mlevel" value="gold">Gold Membership</label>
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+                <input type="submit" value="CONTACT US">
+            </fieldset>
+        </form>
+        <section class="benefits">
+            <h3>Membership Levels</h3>
+            <div>
+                <p class="membershipLevel">Gold Membership</p>
+                <ul>
+                    <li>VIP access to all Chamber events</li>
+                    <li>Included in all Chamber marketing content</li>
+                    <li>Permitted a seat on the Chamber Advisory Council</li>
+                    <li>One-on-one consultation with Chamber leadership</li>
+                </ul>
+            </div>
+            <div>
+                <p class="membershipLevel">Silver Membership</p>
+                <ul>
+                    <li>Invited to all periodic Chamber events</li>
+                    <li>Included in the majority of Chamber marketing content</li>
+                    <li>Permitted to vote on the Chamber Advisory Council</li>
+                    <li>Exclusive benefits package to meet business goals</li>
+                </ul>
+            </div>
+            <div>
+                <p class="membershipLevel">Bronze Membership</p>
+                <ul>
+                    <li>Invited to all quarterly Chamber events</li>
+                    <li>Included in selective Chamber marketing content</li>
+                    <li>Permitted to participate on the Chamber Advisory Council</li>
+                    <li>Premium benefits package to meet business goals</li>
+                </ul>
+            </div>
+            <div>
+                <p class="membershipLevel">NP Membership</p>
+                <ul>
+                    <li>Invited to annual Chamber event</li>
+                    <li>Included in selective Chamber marketing content</li>
+                    <li>Receives Chamber Advisory Council communications</li>
+                    <li>Standard benefits package to meet business goals</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Ogden City Chamber of Commerce</h2>
+        <div class="companyInfo">
+            <div>
+                <p>contact@ogdencitychamber.com</p>
+                <p>(555) 235-3814</p>
+            </div>
+            <div>
+                <p>12345 25th Street</p>
+                <p>Ogden, UT 84401</p>
+            </div>
+        </div>
+        <p class="myInfo"></p>
+    </footer>
+    <script src="scripts/join.js"></script>
+</body>
+
+</html>

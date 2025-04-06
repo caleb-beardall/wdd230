@@ -48,15 +48,18 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .discover {
+    .discover,
+    .join {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .sidebar {
+    .sidebar,
+    .contact-us {
         grid-column: 1 / 2;
     }
 
-    .picture-gallery {
+    .picture-gallery,
+    .benefits {
         grid-column: 2 / 3;
     }
 
@@ -66,6 +69,10 @@
         background-color: var(--primary-color);
         font-weight: 700;
         border: 1px solid var(--primary-color);
+        cursor: pointer;
     }
 
+    .join {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
