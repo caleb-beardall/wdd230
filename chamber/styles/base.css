@@ -501,6 +501,15 @@ textarea {
     margin-bottom: .25rem;
 }
 
+.thankyou h1 {
+    color: var(--primary-color);
+    grid-column: -1 / 1;
+    font-family: var(--title-font);
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
 /* Footer */
 footer {
     display: flex;
