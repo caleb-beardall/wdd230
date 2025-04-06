@@ -1,4 +1,4 @@
-/* MENU */
+/* Menu */
 const mainMenu = document.querySelector('#mainMenu');
 const menuButton = document.querySelector('#menuButton');
 
@@ -7,11 +7,10 @@ menuButton.addEventListener('click', () => {
     menuButton.classList.toggle('open');
 });
 
-/* FOOTER */
+/* Footer */
 const myInfo = document.querySelector('.myInfo');
 
-let copyrightYear = new Date();
-let lastModified = new Date(document.lastModified);
+const currentDate = new Date;
+const lastModified = new Date(document.lastModified);
 
-myInfo.textContent = `©${copyrightYear.getFullYear()} | Caleb Beardall | WDD 230 Project | Last Modification: ${lastModified.toLocaleString('de-DE')}`;
-
+myInfo.textContent = `©${currentDate.getFullYear()} | Caleb Beardall | WDD 230 Project | Last Modification: ${lastModified.toLocaleString('de-DE')}`;

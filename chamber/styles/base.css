@@ -173,7 +173,7 @@ header {
     font-weight: 700;
 }
 
-/* Primary Content */
+/* Home */
 .content {
     display: grid;
     grid-template-columns: 1fr;
@@ -280,6 +280,90 @@ td {
 
 .contactInfo p {
     font-weight: 400;
+}
+
+/* Discover */
+.discover {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.visitMessage {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar h3 {
+    color: var(--primary-grey);
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+
+.sidebar h3 {
+    color: var(--primary-grey);
+    background-color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+
+.companyName {
+    color: var(--quaternary-grey);
+    font-family: var(--body-font);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--secondary-grey);
+    padding-bottom: .5rem;
+    margin: 1rem 1rem .75rem 1rem;
+}
+
+.companyName+div {
+    margin: .75rem 1rem 1rem 1rem;
+}
+
+.companyName+div p {
+    color: var(--tertiary-grey);
+    font-family: var(--body-font);
+    margin-bottom: .25rem;
+}
+
+.sidebar section {
+    background-color: var(--primary-grey);
+    border: 1px solid var(--secondary-grey);
+    margin-bottom: 1rem;
+}
+
+.sidebar section:last-child {
+    margin-bottom: 0;
+}
+
+.picture-gallery figure {
+    color: var(--tertiary-grey);
+    background-color: var(--primary-grey);
+    border: 1px solid var(--secondary-grey);
+    font-family: var(--body-font);
+    margin-bottom: 1rem;
+}
+
+.picture-gallery figure:last-child {
+    margin-bottom: 0;
+}
+
+.picture-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.picture-gallery figcaption {
+    text-align: center;
+    padding: .75rem 1rem 1rem 1rem;
 }
 
 /* Footer */

@@ -1,0 +1,13 @@
+{
+    "familyName": "Beardall",
+    "moveInDate": "10/31/2022",
+    "familySize": 3,
+    "visited": true,
+    "familyMembers": [
+        {
+            "dad": ["Caleb", "Male", "4/28/1999"],
+            "mom": ["Drew", "Female", "3/24/1999"],
+            "daughter": ["Scottie", "Female", "TBD"]
+        }
+    ]
+}
