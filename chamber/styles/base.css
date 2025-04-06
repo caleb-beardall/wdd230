@@ -329,6 +329,7 @@ td {
 }
 
 .companyName+div p {
+    display: block;
     color: var(--tertiary-grey);
     font-family: var(--body-font);
     margin-bottom: .25rem;
