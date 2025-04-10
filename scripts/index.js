@@ -61,3 +61,36 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+/* Weather Info */
+const weatherTemp = document.querySelector('.weather-temp');
+const weatherCond = document.querySelector('.weather-cond');
+const weatherIMG = document.querySelector('.weather-img');
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=41.21&lon=-111.96&units=imperial&appid=800b15198417d7814dc1aa2c84d56653'
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayResults(data) {
+    weatherTemp.innerHTML = `${data.main.temp}&deg;F`;
+    let desc = `${data.weather[0].description}`;
+    weatherCond.textContent = desc;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    weatherIMG.setAttribute('src', iconsrc);
+    weatherIMG.setAttribute('alt', desc);
+}
+
+apiFetch();

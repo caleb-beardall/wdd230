@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Caleb-Beardall/pen/MYWmZEy",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "https://codepen.io/Caleb-Beardall/pen/xbxXJzB",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Caleb-Beardall/pen/XJWeBWV",
+                    "title": "Responsive \"Hamburger\" Menu"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week02/bom.html",
+                    "title": "DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week03/bom.html",
+                    "title": "localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Caleb-Beardall/pen/bNGxwJP",
+                    "title": "CSS Pseudo-classes"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/images/css-combinators",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week04/tablebuild.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week04/index.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Caleb-Beardall/pen/JoPaOMv",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week05/new-ward-members.html",
+                    "title": "CSS JSON"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week05/prophets.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "url": "https://caleb-beardall.github.io/wdd230/week05/weather.htm",
+                    "title": "Consuming a Weather API"
+                }
+            ]
+        }
+    ]
+}

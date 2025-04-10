@@ -205,6 +205,21 @@ h2 {
     padding: .5rem;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+    align-self: center;
+}
+
+.weather-cond {
+    text-transform: capitalize;
+}
+
 .card ul {
     list-style-type: none;
 }
