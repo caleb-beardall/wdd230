@@ -3,7 +3,7 @@ const linksURL = "https://caleb-beardall.github.io/wdd230/data/links.json";
 
 
 const displayLinks = (weeks) => {
-    const ul = document.getElementById('myList');
+    const ul = document.getElementById('unordered-list');
 
     weeks.forEach((week) => {
         const li = document.createElement('li');
