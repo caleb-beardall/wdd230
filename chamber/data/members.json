@@ -6,7 +6,7 @@
                 {
                     "address": "4401 Harrison Blvd | Ogden, UT 84403",
                     "phone": "(801) 387-7750",
-                    "website": "http://www.mckaydee.org",
+                    "website": "www.mckaydee.org",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/mckay-dee-hospital.webp",
                     "logoheight": 80,
                     "membership": "Gold Membership"
@@ -19,7 +19,7 @@
                 {
                     "address": "3350 Airport Rd | Ogden, UT 84405",
                     "phone": "(801) 629-9800",
-                    "website": "https://www.autoliv.com",
+                    "website": "www.autoliv.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/autoliv.webp",
                     "logoheight": 69,
                     "membership": "Gold Membership"
@@ -32,7 +32,7 @@
                 {
                     "address": "3848 Harrison Blvd | Ogden, UT 84408",
                     "phone": "(801) 626-6002",
-                    "website": "https://www.weber.edu",
+                    "website": "www.weber.edu",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/weber-state-university.webp",
                     "logoheight": 158,
                     "membership": "Gold Membership"
@@ -45,7 +45,7 @@
                 {
                     "address": "1344 W 4675 S | Riverdale, UT 84405",
                     "phone": "(801) 627-0900",
-                    "website": "https://www.americafirst.com",
+                    "website": "www.americafirst.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/america-first.webp",
                     "logoheight": 65,
                     "membership": "Silver Membership"
@@ -58,7 +58,7 @@
                 {
                     "address": "2605 Washington Blvd | Ogden, UT 84401",
                     "phone": "(801) 409-5172",
-                    "website": "https://www.bankofutah.com",
+                    "website": "www.bankofutah.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/bank-of-utah.webp",
                     "logoheight": 123,
                     "membership": "Silver Membership"
@@ -71,7 +71,7 @@
                 {
                     "address": "1112 Washington Blvd | Ogden, UT 84404",
                     "phone": "(801) 781-2279",
-                    "website": "https://www.elwoodstaffing.com",
+                    "website": "www.elwoodstaffing.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/elwood-staffing.webp",
                     "logoheight": 39,
                     "membership": "Silver Membership"
@@ -84,7 +84,7 @@
                 {
                     "address": "2475 Washington Blvd | Ogden, UT 84401",
                     "phone": "(801) 877-8259",
-                    "website": "https://www.marketstar.com",
+                    "website": "www.marketstar.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/marketstar.webp",
                     "logoheight": 200,
                     "membership": "Bronze Membership"
@@ -97,7 +97,7 @@
                 {
                     "address": "2225 Washington Blvd | Ogden, UT 84401",
                     "phone": "(801) 656-4500",
-                    "website": "https://www.englandlogistics.com",
+                    "website": "www.englandlogistics.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/england-logistics.webp",
                     "logoheight": 118,
                     "membership": "Bronze Membership"
@@ -110,7 +110,7 @@
                 {
                     "address": "1150 S Depot Dr | Ogden, UT 84404",
                     "phone": "(801) 399-9885",
-                    "website": "https://www.boyerbdo.com",
+                    "website": "www.boyerbdo.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/business-depot-ogden.webp",
                     "logoheight": 66,
                     "membership": "Bronze Membership"

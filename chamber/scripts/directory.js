@@ -1,4 +1,4 @@
-/* Menu */
+/* Main Menu */
 const mainMenu = document.querySelector('#mainMenu');
 const menuButton = document.querySelector('#menuButton');
 
@@ -7,15 +7,23 @@ menuButton.addEventListener('click', () => {
     menuButton.classList.toggle('open');
 });
 
+/* Display Button */
+const displayButton = document.querySelector('#displayButton');
+const cards = document.querySelector('#cards');
+
+displayButton.addEventListener('click', () => {
+    displayButton.classList.toggle('list');
+    cards.classList.toggle('list');
+});
+
 /* Membership List */
 const url = "https://caleb-beardall.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector('#cards');
 
 const displayMembers = (members) => {
     members.forEach((member) => {
 
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let name = document.createElement('h3');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let website = document.createElement('p');
@@ -34,12 +42,12 @@ const displayMembers = (members) => {
         logo.setAttribute('width', 200);
         logo.setAttribute('height', member.info[0].logoheight);
 
+        card.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
         card.appendChild(membership);
-        card.appendChild(logo);
 
         cards.appendChild(card);
     });
