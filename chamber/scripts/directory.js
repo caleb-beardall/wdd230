@@ -8,7 +8,27 @@ menuButton.addEventListener('click', () => {
 });
 
 /* Membership List */
-const url = ""
+const url = "https://caleb-beardall.github.io/wdd230/chamber/data/members.json";
+const cards = document.querySelector('#cards');
+
+const displayMembers = (members) => {
+    members.forEach((member) => {
+        let card = document.createElement('section');
+        let name = document.createElement('h2');
+        
+    });
+}
+
+async function getMemberData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.members);
+    displayMembers(data.members);
+}
+
+getMemberData();
+
+
 
 /* Footer */
 const myInfo = document.querySelector('.myInfo');

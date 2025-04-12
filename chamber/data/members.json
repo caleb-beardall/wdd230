@@ -7,7 +7,8 @@
                     "address": "4401 Harrison Blvd | Ogden, UT 84403",
                     "phone": "(801) 387-7750",
                     "website": "https://intermountainhealthcare.org/locations/mckay-dee-hospital",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/684/MemLogoSearch_McKay-dee-hospital-logo_transparent-300x121.png",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/mckay-dee-hospital.webp",
+                    "logo-height": 80,
                     "membership": "Gold Membership"
                 }
             ]
@@ -19,7 +20,8 @@
                     "address": "3350 Airport Rd | Ogden, UT 84405",
                     "phone": "(801) 629-9800",
                     "website": "https://www.autoliv.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/1541/MemLogoSearch_Autoliv.png",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/autoliv.webp",
+                    "logo-height": 69,
                     "membership": "Gold Membership"
                 }
             ]
@@ -31,7 +33,8 @@
                     "address": "3848 Harrison Blvd | Ogden, UT 84408",
                     "phone": "(801) 626-6002",
                     "website": "https://www.weber.edu",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/334/MemLogoSearch_ua_stacked.png",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/weber-state-university.webp",
+                    "logo-height": 158,
                     "membership": "Gold Membership"
                 }
             ]
@@ -43,19 +46,21 @@
                     "address": "1344 W 4675 S | Riverdale, UT 84405",
                     "phone": "(801) 627-0900",
                     "website": "https://www.americafirst.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/412/MemLogoSearch_america-first-credit-union-01_190922-033242.png",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/america-first.webp",
+                    "logo-height": 65,
                     "membership": "Silver Membership"
                 }
             ]
         },
         {
-            "member": "Associated Food Stores",
+            "member": "Bank of Utah",
             "info": [
                 {
-                    "address": "1850 W 2530 N | Farr West, UT 84404",
-                    "phone": "(801) 973-4400",
-                    "website": "https://www.afstores.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/1240/MemLogoSearch_Associated.jpg",
+                    "address": "2605 Washington Blvd | Ogden, UT 84401",
+                    "phone": "(801) 409-5172",
+                    "website": "https://www.bankofutah.com",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/bank-of-utah.webp",
+                    "logo-height": 123,
                     "membership": "Silver Membership"
                 }
             ]
@@ -67,7 +72,8 @@
                     "address": "1112 Washington Blvd | Ogden, UT 84404",
                     "phone": "(801) 781-2279",
                     "website": "https://www.elwoodstaffing.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/1369/MemLogoSearch_Elwood%20Staffing.jpg",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/elwood-staffing.webp",
+                    "logo-height": 39,
                     "membership": "Silver Membership"
                 }
             ]
@@ -79,7 +85,8 @@
                     "address": "2475 Washington Blvd | Ogden, UT 84401",
                     "phone": "(801) 877-8259",
                     "website": "https://www.marketstar.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/customers/2934/members/2089/logos/MEMBER_LOGOSEARCH/marketstar_logo_orange_back_white_star.jpg",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/marketstar.webp",
+                    "logo-height": 200,
                     "membership": "Bronze Membership"
                 }
             ]
@@ -91,19 +98,21 @@
                     "address": "2225 Washington Blvd | Ogden, UT 84401",
                     "phone": "(801) 656-4500",
                     "website": "https://www.englandlogistics.com",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/93631/MemLogoSearch_el--horiz-logo.jpeg",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/england-logistics.webp",
+                    "logo-height": 118,
                     "membership": "Bronze Membership"
                 }
             ]
         },
         {
-            "member": "Parker Hannifin",
+            "member": "Business Depot Ogden",
             "info": [
                 {
-                    "address": "1425 W 2675 N | Ogden, UT 84404",
-                    "phone": "(801) 786-3000",
-                    "website": "https://www.parker.com/us/en/home.html",
-                    "logo": "https://chambermaster.blob.core.windows.net/images/members/2934/2343/MemLogoSearch_logo.png",
+                    "address": "1150 S Depot Dr | Ogden, UT 84404",
+                    "phone": "(801) 399-9885",
+                    "website": "https://www.boyerbdo.com",
+                    "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/business-depot-ogden.webp",
+                    "logo-height": 66,
                     "membership": "Bronze Membership"
                 }
             ]
