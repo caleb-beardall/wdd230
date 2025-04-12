@@ -13,6 +13,7 @@ const cards = document.querySelector('#cards');
 
 const displayMembers = (members) => {
     members.forEach((member) => {
+
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let address = document.createElement('p');
@@ -21,17 +22,17 @@ const displayMembers = (members) => {
         let membership = document.createElement('p');
         let logo = document.createElement('img');
 
-        name.textContent = member.info.name;
-        address.textContent = member.info.address;
-        phone.textContent = member.info.phone;
-        website.textContent = member.info.website;
-        membership.textContent = member.info.membership;
+        name.textContent = member.member;
+        address.textContent = member.info[0].address;
+        phone.textContent = member.info[0].phone;
+        website.innerHTML = `<a href="${member.info[0].website}">${member.info[0].website}</a>`;
+        membership.textContent = member.info[0].membership;
 
-        logo.setAttribute('src', member.info.logo);
-        logo.setAttribute('alt', `${member.info.name} Logo`);
+        logo.setAttribute('src', member.info[0].logo);
+        logo.setAttribute('alt', `${member.member} Logo`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', 200);
-        logo.setAttribute('height', memeber.info.logoheight);
+        logo.setAttribute('height', member.info[0].logoheight);
 
         card.appendChild(name);
         card.appendChild(address);
