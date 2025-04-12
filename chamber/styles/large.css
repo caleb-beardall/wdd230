@@ -79,4 +79,8 @@
     #cards {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #cards.list {
+        grid-template-columns: 1fr;
+    }
 }

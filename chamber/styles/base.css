@@ -560,16 +560,14 @@ textarea {
 }
 
 #cards section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-items: center;
     background-color: var(--primary-grey);
     border: 1px solid var(--secondary-grey);
     padding: 1rem;
 }
 
 #cards img {
-    width: 80%;
+    width: 100%;
     max-width: 200px;
     height: auto;
     margin-bottom: 1rem;
@@ -580,6 +578,9 @@ textarea {
     font-family: var(--body-font);
     font-size: 1.25rem;
     font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid var(--secondary-grey);
+    padding-bottom: .5rem;
     margin-bottom: .75rem;
 }
 
@@ -597,6 +598,29 @@ textarea {
 #cards a {
     text-decoration: none;
     color: var(--tertiary-grey);
+}
+
+#cards.list {
+    grid-gap: unset;
+}
+
+#cards.list section {
+    justify-items: center;
+    background-color: unset;
+    border: none;
+    padding: 1rem;
+}
+
+#cards.list section:nth-child(odd) {
+    background-color: var(--primary-grey);
+}
+
+#cards.list img {
+    display: none;
+}
+
+#cards.list h3 {
+    width: 100%;
 }
 
 /* Footer */
