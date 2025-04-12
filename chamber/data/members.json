@@ -8,7 +8,7 @@
                     "phone": "(801) 387-7750",
                     "website": "https://intermountainhealthcare.org/locations/mckay-dee-hospital",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/mckay-dee-hospital.webp",
-                    "logo-height": 80,
+                    "logoheight": 80,
                     "membership": "Gold Membership"
                 }
             ]
@@ -21,7 +21,7 @@
                     "phone": "(801) 629-9800",
                     "website": "https://www.autoliv.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/autoliv.webp",
-                    "logo-height": 69,
+                    "logoheight": 69,
                     "membership": "Gold Membership"
                 }
             ]
@@ -34,7 +34,7 @@
                     "phone": "(801) 626-6002",
                     "website": "https://www.weber.edu",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/weber-state-university.webp",
-                    "logo-height": 158,
+                    "logoheight": 158,
                     "membership": "Gold Membership"
                 }
             ]
@@ -47,7 +47,7 @@
                     "phone": "(801) 627-0900",
                     "website": "https://www.americafirst.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/america-first.webp",
-                    "logo-height": 65,
+                    "logoheight": 65,
                     "membership": "Silver Membership"
                 }
             ]
@@ -60,7 +60,7 @@
                     "phone": "(801) 409-5172",
                     "website": "https://www.bankofutah.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/bank-of-utah.webp",
-                    "logo-height": 123,
+                    "logoheight": 123,
                     "membership": "Silver Membership"
                 }
             ]
@@ -73,7 +73,7 @@
                     "phone": "(801) 781-2279",
                     "website": "https://www.elwoodstaffing.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/elwood-staffing.webp",
-                    "logo-height": 39,
+                    "logoheight": 39,
                     "membership": "Silver Membership"
                 }
             ]
@@ -86,7 +86,7 @@
                     "phone": "(801) 877-8259",
                     "website": "https://www.marketstar.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/marketstar.webp",
-                    "logo-height": 200,
+                    "logoheight": 200,
                     "membership": "Bronze Membership"
                 }
             ]
@@ -99,7 +99,7 @@
                     "phone": "(801) 656-4500",
                     "website": "https://www.englandlogistics.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/england-logistics.webp",
-                    "logo-height": 118,
+                    "logoheight": 118,
                     "membership": "Bronze Membership"
                 }
             ]
@@ -112,7 +112,7 @@
                     "phone": "(801) 399-9885",
                     "website": "https://www.boyerbdo.com",
                     "logo": "https://caleb-beardall.github.io/wdd230/chamber/images/business-depot-ogden.webp",
-                    "logo-height": 66,
+                    "logoheight": 66,
                     "membership": "Bronze Membership"
                 }
             ]

@@ -15,7 +15,32 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
-        
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('p');
+        let membership = document.createElement('p');
+        let logo = document.createElement('img');
+
+        name.textContent = member.info.name;
+        address.textContent = member.info.address;
+        phone.textContent = member.info.phone;
+        website.textContent = member.info.website;
+        membership.textContent = member.info.membership;
+
+        logo.setAttribute('src', member.info.logo);
+        logo.setAttribute('alt', `${member.info.name} Logo`);
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', 200);
+        logo.setAttribute('height', memeber.info.logoheight);
+
+        card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+        card.appendChild(membership);
+        card.appendChild(logo);
+
+        cards.appendChild(card);
     });
 }
 
