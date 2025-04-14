@@ -62,8 +62,6 @@ async function getMemberData() {
 
 getMemberData();
 
-
-
 /* Footer */
 const myInfo = document.querySelector('.myInfo');
 

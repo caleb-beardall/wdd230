@@ -60,64 +60,54 @@
                 <a href="https://caleb-beardall.github.io/wdd230/chamber/join.html">SIGN UP</a>
             </div>
         </div>
-        <div class="content">
+        <div class="home">
             <section class="events">
                 <h2>Events</h2>
-                <h3>Ribbon Cutting - <span class="eventLocation">The Diamond Shack</span></h3>
-                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
+                <p class="eventName">Ribbon Cutting - <span class="ribbonLocation">The Diamond Shack</span></p>
+                <p class="eventInfo">Join us for the grand opening of The Diamond Shack on Thursday at 1 p.m.</p>
             </section>
             <section class="weather">
                 <h2>Weather</h2>
-                <div class="tableContainer">
-                    <table>
-                        <tr>
-                            <th class="cloudy" rowspan="2" scope="rowgroup">⛅</th>
-                            <td>50°F</td>
-                        </tr>
-                        <tr>
-                            <td>Cloudy</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Humidity:</th>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Wind:</th>
-                            <td>9 MPH</td>
-                        </tr>
-                    </table>
+                <div class="weatherContainer">
+                    <div>
+                        <p id="currentDay" class="forecastDay"></p>
+                        <img id="currentIcon" class="weatherIcon">
+                        <p class="weatherHeader">Temperature: <span id="currentTemp" class="weatherSubheader"></span>
+                        </p>
+                        <p class="weatherHeader">Condition: <span id="currentCond" class="weatherSubheader"></span></p>
+
+                    </div>
+                    <div>
+                        <p id="forecast1" class="forecastDay"></p>
+                        <img id="forecast1Icon" class="weatherIcon">
+                        <p class="weatherHeader">Temperature: <span id="forecast1Temp" class="weatherSubheader"></span>
+                        </p>
+                        <p class="weatherHeader">Condition: <span id="forecast1Cond" class="weatherSubheader"></span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <p id="forecast2" class="forecastDay"></p>
+                        <img id="forecast2Icon" class="weatherIcon">
+                        <p class="weatherHeader">Temperature: <span id="forecast2Temp" class="weatherSubheader"></span>
+                        </p>
+                        <p class="weatherHeader">Condition: <span id="forecast2Cond" class="weatherSubheader"></span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <p id="forecast3" class="forecastDay"></p>
+                        <img id="forecast3Icon" class="weatherIcon">
+                        <p class="weatherHeader">Temperature: <span id="forecast3Temp" class="weatherSubheader"></span>
+                        </p>
+                        <p class="weatherHeader">Condition: <span id="forecast3Cond" class="weatherSubheader"></span>
+                        </p>
+
+                    </div>
                 </div>
             </section>
-        </div>
-        <h2 class="spotlight">Member Spotlights</h2>
-        <div class="ads">
-            <section class="ad">
-                <h3>NovaCore Solutions</h3>
-                <p>Cloud Computing & IT Services</p>
-                <div class="contactInfo">
-                    <p>info@novacoresolutions.com</p>
-                    <p>(555) 241-8890</p>
-                    <p>novacoresolutions.com</p>
-                </div>
-            </section>
-            <section class="ad">
-                <h3>GreenLeaf Organics</h3>
-                <p>Sustainable Agriculture & Organic Foods</p>
-                <div class="contactInfo">
-                    <p>hello@greenleaforganics.com</p>
-                    <p>(555) 736-4421</p>
-                    <p>greenleaforganics.com</p>
-                </div>
-            </section>
-            <section class="ad">
-                <h3>Velocity Vision Media</h3>
-                <p>Digital Marketing & Video Production</p>
-                <div class="contactInfo">
-                    <p>contact@velocityvisionmedia.net</p>
-                    <p>(555) 903-1172</p>
-                    <p>velocityvisionmedia.net</p>
-                </div>
-            </section>
+            <h2 class="spotlight">Chamber Partner Spotlights</h2>
+            <div id="cards"></div>
         </div>
     </main>
     <footer>
