@@ -91,7 +91,7 @@ async function getForecastData() {
 }
 
 function displayForecast(data) {
-    console.log(data);
+    /* console.log(data); */
 
     f1.textContent = formatDate(data.list[5].dt);
     f2.textContent = formatDate(data.list[13].dt);
