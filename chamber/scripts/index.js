@@ -91,33 +91,33 @@ async function getForecastData() {
 }
 
 function displayForecast(data) {
-    /* console.log(data); */
+    console.log(data);
 
-    f1.textContent = formatDate(data.list[6].dt);
-    f2.textContent = formatDate(data.list[12].dt);
-    f3.textContent = formatDate(data.list[18].dt);
+    f1.textContent = formatDate(data.list[5].dt);
+    f2.textContent = formatDate(data.list[13].dt);
+    f3.textContent = formatDate(data.list[21].dt);
 
-    f1Temp.innerHTML = `${data.list[6].main.temp}&deg;F`;
-    f2Temp.innerHTML = `${data.list[12].main.temp}&deg;F`;
-    f3Temp.innerHTML = `${data.list[18].main.temp}&deg;F`;
+    f1Temp.innerHTML = `${data.list[5].main.temp}&deg;F`;
+    f2Temp.innerHTML = `${data.list[13].main.temp}&deg;F`;
+    f3Temp.innerHTML = `${data.list[21].main.temp}&deg;F`;
 
-    f1Cond.textContent = data.list[6].weather[0].description;
-    f2Cond.textContent = data.list[12].weather[0].description;
-    f3Cond.textContent = data.list[18].weather[0].description;
+    f1Cond.textContent = data.list[5].weather[0].description;
+    f2Cond.textContent = data.list[13].weather[0].description;
+    f3Cond.textContent = data.list[21].weather[0].description;
 
-    f1Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[6].weather[0].icon}.png`);
-    f1Icon.setAttribute('alt', `${data.list[6].weather[0].description}`);
+    f1Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png`);
+    f1Icon.setAttribute('alt', `${data.list[5].weather[0].description}`);
     f1Icon.setAttribute('width', 50);
     f1Icon.setAttribute('height', 50);
 
 
-    f2Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[12].weather[0].icon}.png`);
-    f2Icon.setAttribute('alt', `${data.list[12].weather[0].description}`);
+    f2Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[13].weather[0].icon}.png`);
+    f2Icon.setAttribute('alt', `${data.list[13].weather[0].description}`);
     f2Icon.setAttribute('width', 50);
     f2Icon.setAttribute('height', 50);
 
-    f3Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[18].weather[0].icon}.png`);
-    f3Icon.setAttribute('alt', `${data.list[18].weather[0].description}`);
+    f3Icon.setAttribute('src', `https://openweathermap.org/img/w/${data.list[21].weather[0].icon}.png`);
+    f3Icon.setAttribute('alt', `${data.list[21].weather[0].description}`);
     f3Icon.setAttribute('width', 50);
     f3Icon.setAttribute('height', 50);
 }
@@ -165,7 +165,7 @@ const displayMembers = (members) => {
 async function getMemberData() {
     const response = await fetch(membersURL);
     const data = await response.json();
-    console.table(data.members);
+    /* console.table(data.members); */
 
     const PremiumMembers = data.members.filter(member => {
         return member.info[0].membership === "Gold Membership" || member.info[0].membership === "Silver Membership"
